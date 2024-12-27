@@ -7,9 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        "8xl": "1440px",
+      },
+      spacing: {
+        "20px": "20px",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      fontFamily: {
+        Poppins: ["Poppins", "serif"],
       },
     },
   },

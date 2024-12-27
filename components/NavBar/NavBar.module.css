@@ -1,0 +1,12 @@
+.navbarItem {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5e5e5e;
+  padding: 12px 48px;
+  transition: 300ms ease-out;
+
+  &:hover {
+    background-color: #f9f9f9;
+    color: #283618;
+  }
+}
