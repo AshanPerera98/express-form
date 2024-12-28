@@ -1,0 +1,40 @@
+.heroSection {
+  height: calc(100vh - 96px);
+  background-position: center;
+  background-size: cover;
+}
+
+.heroTitle {
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 500;
+  max-width: 940px;
+  color: white;
+  margin-bottom: 24px;
+}
+
+.introSection {
+}
+
+.intro {
+  font-size: 32px;
+  line-height: 44px;
+  color: #5e5e5e;
+}
+
+@media only screen and (max-width: 1024px) {
+  .heroSection {
+    height: calc(100vh - 80px);
+  }
+
+  .heroTitle {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 120px;
+  }
+
+  .intro {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
