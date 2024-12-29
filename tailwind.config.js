@@ -10,9 +10,7 @@ module.exports = {
       maxWidth: {
         "8xl": "1440px",
       },
-      spacing: {
-        "20px": "20px",
-      },
+      spacing: {},
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

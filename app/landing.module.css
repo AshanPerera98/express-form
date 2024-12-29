@@ -1,7 +1,9 @@
 .heroSection {
   height: calc(100vh - 96px);
-  background-position: center;
-  background-size: cover;
+  background-position: center center;
+  animation: zoom ease-out 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .heroTitle {
@@ -22,9 +24,11 @@
   color: #5e5e5e;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
   .heroSection {
     height: calc(100vh - 80px);
+    background-size: cover;
+    animation: none;
   }
 
   .heroTitle {
@@ -36,5 +40,14 @@
   .intro {
     font-size: 18px;
     line-height: 24px;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    background-size: 150%;
+  }
+  100% {
+    background-size: 140%;
   }
 }

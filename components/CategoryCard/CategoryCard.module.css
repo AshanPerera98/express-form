@@ -1,0 +1,61 @@
+.card {
+  background: #f9f9f9;
+  max-width: 500px;
+}
+
+.content {
+  padding: 30px 40px;
+}
+
+.title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  color: #606c38;
+  text-align: left;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #5e5e5e;
+  text-align: left;
+}
+
+.image {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.button {
+  width: 100%;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  background-color: #d4a373;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    padding: 24px 16px;
+  }
+
+  .title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .button {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

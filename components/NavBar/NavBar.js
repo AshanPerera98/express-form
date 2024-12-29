@@ -17,7 +17,7 @@ export const NavBar = () => {
     <header className="bg-white">
       <nav
         aria-label="Global"
-        className="mx-auto flex max-w-8xl items-center justify-between p-6 lg:px-20px"
+        className="mx-auto flex max-w-8xl items-center justify-between p-6 lg:px-[20px]"
       >
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">

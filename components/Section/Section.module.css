@@ -1,0 +1,21 @@
+.preTitle {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #a76d35;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #283618;
+}
+
+.bgWhite {
+  background-color: #ffffff;
+}
+
+.bgLight {
+  background-color: #f9f9f9;
+}
