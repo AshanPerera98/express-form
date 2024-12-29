@@ -1,23 +1,27 @@
+.section {
+  background-color: #92ac3b;
+}
+
 .preTitle {
   font-size: 20px;
   line-height: 24px;
   font-weight: 300;
-  color: #a76d35;
+  color: #faedcd;
 }
 
 .title {
   font-size: 32px;
   line-height: 36px;
   font-weight: 400;
-  color: #283618;
+  color: #ffffff;
+  margin-bottom: 120px;
 }
 
-.bgWhite {
-  background-color: #ffffff;
-}
-
-.bgLight {
-  background-color: #f9f9f9;
+.description {
+  font-size: 18px;
+  line-height: 28px;
+  color: #f9f9f9;
+  max-width: 1000px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -29,5 +33,12 @@
   .title {
     font-size: 18px;
     line-height: 22px;
+    margin-bottom: 64px;
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 300px;
   }
 }

@@ -24,17 +24,19 @@
   color: #5e5e5e;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .heroSection {
     height: calc(100vh - 80px);
     background-size: cover;
     animation: none;
   }
+}
 
+@media only screen and (max-width: 768px) {
   .heroTitle {
     font-size: 32px;
     line-height: 36px;
-    margin-bottom: 120px;
+    margin-bottom: 25vh;
   }
 
   .intro {

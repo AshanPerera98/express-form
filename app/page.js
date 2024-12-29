@@ -5,6 +5,7 @@ import CategoryCard from "@/components/CategoryCard/CategoryCard";
 
 import caravanCard from "@/assets/LandingPage/CategoryCard/caravan.png";
 import homeCard from "@/assets/LandingPage/CategoryCard/home.png";
+import ContactUsSection from "@/components/ContactUsSection/ContactUsSection";
 
 export default function Landing() {
   return (
@@ -13,7 +14,7 @@ export default function Landing() {
         id="hero"
         className={`${styles.heroSection} bg-[url('./../assets/LandingPage/hero_bg.png')]`}
       >
-        <div className="mx-auto flex flex-col justify-center max-w-8xl px-[20px] h-full">
+        <div className="mx-auto flex flex-col items-center md:items-start justify-center max-w-8xl px-[20px] h-full">
           <h1 className={styles.heroTitle}>
             Where Comfort Meets the Great Outdoors...
           </h1>
@@ -50,6 +51,7 @@ export default function Landing() {
           />
         </div>
       </Section>
+      <ContactUsSection />
     </>
   );
 }
