@@ -5,6 +5,17 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --P1: #283618;
+  --P2: #606c38;
+  --P3: #92ac3b;
+  --S0: #a76d35;
+  --S1: #d4a373;
+  --S2: #faedcd;
+  --S3: #fefae0;
+  --B1: #ffffff;
+  --B2: #f9f9f9;
+  --T1: #000000;
+  --T3: #5e5e5e;
 }
 
 body {

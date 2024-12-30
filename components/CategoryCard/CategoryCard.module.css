@@ -36,7 +36,12 @@
   padding-top: 20px;
   padding-bottom: 20px;
   color: #ffffff;
-  background-color: #d4a373;
+  background-color: var(--S1);
+  transition: 300ms;
+
+  &:hover {
+    background-color: var(--S0);
+  }
 }
 
 @media only screen and (max-width: 768px) {
