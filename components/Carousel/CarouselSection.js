@@ -84,6 +84,7 @@ const CarouselSection = ({ content }) => {
       renderIndicator={renderIndecator}
       renderArrowPrev={renderPrevArrow}
       renderArrowNext={renderNextArrow}
+      interval={5000}
       transitionTime={1200}
       showStatus={false}
       className="desktop-carousel"

@@ -84,6 +84,7 @@ const CarouselSection = ({ content }) => {
       renderIndicator={renderIndecator}
       renderArrowPrev={renderPrevArrow}
       renderArrowNext={renderNextArrow}
+      interval={5000}
       transitionTime={600}
       showStatus={false}
       className="mobile-carousel"
