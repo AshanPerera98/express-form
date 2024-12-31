@@ -1,13 +1,27 @@
 import React from "react";
 import styles from "./Section.module.css";
 
-const Section = ({ id, preTitle, title, bgColor, tight, children }) => {
+const Section = ({
+  id,
+  preTitle,
+  title,
+  bgColor,
+  tight,
+  mobileOnly,
+  desktopOnly,
+  children,
+}) => {
   return (
-    <section id={id} className={styles[bgColor]}>
+    <section
+      id={id}
+      className={`${styles[bgColor]} ${mobileOnly && "visible sm:hidden"} ${
+        desktopOnly && "hidden sm:block"
+      }`}
+    >
       <div
-        className={`mx-auto flex flex-col justify-center max-w-8xl px-[20px] pt-[64px] pb-[32px] ${
-          tight ? "md:py-[64px]" : "md:py-[144px]"
-        } text-center`}
+        className={`mx-auto flex flex-col justify-center max-w-8xl px-[20px] ${
+          tight ? "pt-[32px]" : "pt-[64px]"
+        } pb-[32px] ${tight ? "md:py-[64px]" : "md:py-[144px]"} text-center`}
       >
         {(title || preTitle) && (
           <div className="mb-[64px] md:mb-[120px]">

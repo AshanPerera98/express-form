@@ -1,0 +1,12 @@
+.desktop-carousel {
+  .control-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+
+    li {
+      transition: 1200ms;
+    }
+  }
+}

@@ -3,6 +3,7 @@ import styles from "./landing.module.css";
 import Section from "@/components/Section/Section";
 import ContactUsSection from "@/components/ContactUsSection/ContactUsSection";
 import CarouselSection from "@/components/Carousel/CarouselSection";
+import MobileCarousel from "@/components/MobileCarousel/MobileCarousel";
 import CategorySection from "@/components/CategoryCard/CategorySection";
 
 import { categoryCards, carouselSlides } from "@/content/LandingPage";
@@ -30,8 +31,11 @@ export default function Landing() {
           caravan
         </p>
       </section>
-      <Section id="carousel" bgColor="bgLight" tight>
+      <Section id="carousel" bgColor="bgLight" tight desktopOnly>
         <CarouselSection content={carouselSlides} />
+      </Section>
+      <Section id="carousel" bgColor="bgLight" tight mobileOnly>
+        <MobileCarousel content={carouselSlides} />
       </Section>
       <Section
         id="products"

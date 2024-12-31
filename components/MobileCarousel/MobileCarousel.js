@@ -6,15 +6,15 @@ import { ChevronRightIcon, ChevronLeftIcon } from "@heroicons/react/24/outline";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./CarouselOverride.css";
 
-import Slide from "./Slide";
-import styles from "./Carousel.module.css";
+import MobileSlide from "./MobileSlide";
+import styles from "./MobileCarousel.module.css";
 
 const renderPrevArrow = (clickHandler, hasPrev, label) => {
   return (
     <button
       onClick={clickHandler}
       className={styles.arrowButton}
-      style={{ left: "40px" }}
+      style={{ left: "0px" }}
     >
       <ChevronLeftIcon aria-hidden="true" className="size-6" />
     </button>
@@ -26,7 +26,7 @@ const renderNextArrow = (clickHandler, hasPrev, label) => {
     <button
       onClick={clickHandler}
       className={styles.arrowButton}
-      style={{ right: "40px" }}
+      style={{ right: "0px" }}
     >
       <ChevronRightIcon aria-hidden="true" className="size-6" />
     </button>
@@ -84,12 +84,12 @@ const CarouselSection = ({ content }) => {
       renderIndicator={renderIndecator}
       renderArrowPrev={renderPrevArrow}
       renderArrowNext={renderNextArrow}
-      transitionTime={1200}
+      transitionTime={600}
       showStatus={false}
-      className="desktop-carousel"
+      className="mobile-carousel"
     >
       {content.map((slide, index) => {
-        return <Slide {...slide} key={index} />;
+        return <MobileSlide {...slide} key={index} />;
       })}
     </Carousel>
   );

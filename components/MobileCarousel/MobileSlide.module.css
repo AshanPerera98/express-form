@@ -1,0 +1,41 @@
+.card {
+}
+
+.content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.image {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  margin-bottom: 120px;
+}
+
+.title {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 24px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: -4px;
+    left: 25%;
+    border-bottom: 4px solid var(--S1);
+  }
+}
+
+.description {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
+  color: var(--T2);
+  text-align: left;
+}

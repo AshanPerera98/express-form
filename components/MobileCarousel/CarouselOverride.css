@@ -1,0 +1,13 @@
+.mobile-carousel {
+  .control-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 285px;
+    bottom: auto;
+
+    li {
+      transition: 600ms;
+    }
+  }
+}
