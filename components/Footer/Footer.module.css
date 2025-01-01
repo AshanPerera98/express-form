@@ -1,0 +1,44 @@
+.footer {
+  background-color: var(--P1);
+}
+
+.address {
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: var(--B2);
+}
+
+.link {
+  font-style: 18px;
+  font-weight: 400;
+  color: var(--S2);
+  transition: 300ms;
+
+  &:hover {
+    color: var(--S1);
+  }
+}
+
+.button {
+  background-color: var(--S1);
+  padding: 8px 24px;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--B1);
+  transition: 300ms;
+
+  &:hover {
+    background-color: var(--S0);
+  }
+}
+
+.divider {
+  border: 1px solid var(--P2);
+}
+
+.footNotes {
+  font-weight: 200;
+  color: var(--B2);
+}

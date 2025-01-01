@@ -2,22 +2,26 @@
   font-size: 20px;
   line-height: 24px;
   font-weight: 300;
-  color: #a76d35;
+  color: var(--S0);
 }
 
 .title {
   font-size: 32px;
   line-height: 36px;
   font-weight: 400;
-  color: #283618;
+  color: var(--P1);
 }
 
 .bgWhite {
-  background-color: #ffffff;
+  background-color: var(--B1);
 }
 
 .bgLight {
-  background-color: #f9f9f9;
+  background-color: var(--B2);
+}
+
+.bgDark {
+  background-color: var(--P1);
 }
 
 @media only screen and (max-width: 768px) {
