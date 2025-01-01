@@ -1,0 +1,54 @@
+.heroSection {
+  height: calc(100vh - 96px);
+  background-position: center center;
+  animation: zoom ease-out 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.heroTitle {
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 500;
+  max-width: 940px;
+  color: var(--B1);
+  margin-bottom: 25%;
+  text-align: center;
+}
+
+.description {
+  font-size: 28px;
+  line-height: 46px;
+  max-width: 1200px;
+  color: var(--B1);
+}
+
+@media only screen and (max-width: 1024px) {
+  .heroSection {
+    height: 600px;
+    background-size: cover;
+    animation: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .heroTitle {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 50%;
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    background-size: 150%;
+  }
+  100% {
+    background-size: 140%;
+  }
+}

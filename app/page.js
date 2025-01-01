@@ -6,6 +6,8 @@ import CarouselSection from "@/components/Carousel/CarouselSection";
 import MobileCarousel from "@/components/MobileCarousel/MobileCarousel";
 import CategorySection from "@/components/CategoryCard/CategorySection";
 
+import hero_bg from "@/assets/LandingPage/hero_bg.png";
+
 import { categoryCards, carouselSlides } from "@/content/LandingPage";
 
 export default function Landing() {
@@ -13,7 +15,10 @@ export default function Landing() {
     <>
       <section
         id="hero"
-        className={`${styles.heroSection} bg-[url('./../assets/LandingPage/hero_bg.png')]`}
+        className={styles.heroSection}
+        style={{
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('${hero_bg.src}')`,
+        }}
       >
         <div className="mx-auto flex flex-col items-center md:items-start justify-center max-w-8xl px-[20px] h-full">
           <h1 className={styles.heroTitle}>
@@ -22,7 +27,7 @@ export default function Landing() {
           <ActionButton label="Our Products" link="#products" />
         </div>
       </section>
-      <section>
+      <section id="intro">
         <p
           className={`${styles.intro} mx-auto flex flex-col justify-center max-w-[1000px] lg:px-[20px] lg:h-[600px] py-[64px] px-[32px] text-center`}
         >

@@ -1,0 +1,160 @@
+.card {
+  min-height: 500px;
+  display: flex;
+  background-color: var(--B2);
+  --animateTime: 600ms ease-out;
+}
+
+.content {
+  width: calc(50% - 160px);
+  max-width: 540px;
+  height: auto;
+  margin: 110px 70px 110px 90px;
+  transition: var(--animateTime);
+  overflow-x: hidden;
+}
+
+.slider {
+  width: 200%;
+  display: flex;
+  margin-left: -100%;
+  transition: var(--animateTime);
+}
+
+.slided {
+  margin-left: 0px;
+}
+
+.slide1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.slide2 {
+  width: 50%;
+
+  & > :not(:first-child) {
+    border-left: 2px solid var(--S2);
+  }
+}
+
+.activated {
+  width: 70% !important;
+  max-width: 1000px;
+}
+
+.image {
+  width: 50%;
+  max-width: 700px;
+  height: auto;
+  object-fit: cover;
+  transition: var(--animateTime);
+}
+
+.contract {
+  width: 30% !important;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 64px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    border-bottom: 4px solid var(--S1);
+  }
+}
+
+.description {
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--T2);
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px;
+}
+
+.productTitle {
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--S0);
+  margin-bottom: 8px;
+}
+
+.productDesc {
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--P2);
+  margin-left: 16px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1400px) {
+  .content {
+    width: calc(60% - 160px);
+    max-width: none;
+  }
+
+  .image {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .content {
+    width: calc(70% - 160px);
+    max-width: none;
+  }
+
+  .image {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .card {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .content {
+    margin: 64px 72px;
+    width: calc(100% - 144px);
+    max-width: none;
+  }
+
+  .image {
+    width: 100%;
+    max-width: none;
+    height: 300px;
+  }
+
+  .contract {
+    width: 100% !important;
+  }
+
+  .activated {
+    width: calc(100% - 160px) !important;
+    max-width: none;
+  }
+}
