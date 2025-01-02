@@ -1,0 +1,24 @@
+.card {
+  min-height: 300px;
+  padding: 42px 48px;
+  background-color: var(--P1);
+  width: 100%;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 500;
+  margin-bottom: 32px;
+  text-align: center;
+  color: var(--B1);
+}
+
+.description {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--S1);
+  max-width: 1200px;
+}

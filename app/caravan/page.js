@@ -1,13 +1,14 @@
 import React from "react";
 import HeroSection from "@/components/HeroSection/HeroSection";
+import Section from "@/components/Section/Section";
+import ProductSection from "@/components/ProductSection/ProductSection";
+import MobileProductSection from "@/components/MobileProductSection/MobileProductSection";
+import CustomizationSection from "@/components/Customization/CustomizationSection";
+import ContactUsSection from "@/components/ContactUsSection/ContactUsSection";
 
 import hero_bg from "@/assets/CaravanPage/hero_bg.png";
-import ProductSection from "@/components/ProductSection/ProductSection";
-import Section from "@/components/Section/Section";
 
-import { productCards } from "@/content/CaravanPage";
-import MobileProductSection from "@/components/MobileProductSection/MobileProductSection";
-import ContactUsSection from "@/components/ContactUsSection/ContactUsSection";
+import { productCards, customizationCards } from "@/content/CaravanPage";
 
 export const Caravan = () => {
   return (
@@ -32,6 +33,14 @@ export const Caravan = () => {
         mobileOnly
       >
         <MobileProductSection content={productCards} />
+      </Section>
+      <Section
+        id="customization"
+        preTitle="Want anything specific?"
+        title="Customization Options"
+        bgColor="bgLight"
+      >
+        <CustomizationSection content={customizationCards} />
       </Section>
       <ContactUsSection />
     </>
