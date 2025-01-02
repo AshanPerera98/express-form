@@ -6,6 +6,8 @@ import ProductSection from "@/components/ProductSection/ProductSection";
 import Section from "@/components/Section/Section";
 
 import { productCards } from "@/content/CaravanPage";
+import MobileProductSection from "@/components/MobileProductSection/MobileProductSection";
+import ContactUsSection from "@/components/ContactUsSection/ContactUsSection";
 
 export const Caravan = () => {
   return (
@@ -23,6 +25,15 @@ export const Caravan = () => {
       >
         <ProductSection content={productCards} />
       </Section>
+      <Section
+        id="products"
+        preTitle="What do we offer?"
+        title="Our Products"
+        mobileOnly
+      >
+        <MobileProductSection content={productCards} />
+      </Section>
+      <ContactUsSection />
     </>
   );
 };

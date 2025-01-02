@@ -1,6 +1,5 @@
 import React from "react";
 
-import styles from "./ProductSection.module.css";
 import ProductCard from "./ProductCard";
 
 const ProductSection = ({ content }) => {
