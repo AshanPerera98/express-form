@@ -1,6 +1,5 @@
 .card {
   min-height: 300px;
-  padding: 42px 48px;
 }
 
 .dark {
@@ -66,4 +65,18 @@
   font-weight: 300;
   color: var(--T2) !important;
   text-align: left;
+}
+
+.mobilePoint {
+  background-color: var(--B1);
+  padding: 12px;
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .title {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
 }
