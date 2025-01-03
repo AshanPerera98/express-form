@@ -1,7 +1,9 @@
 "use client";
 
 import React, { useState } from "react";
+
 import Image from "next/image";
+import Link from "next/link";
 import { Dialog, DialogPanel, PopoverGroup } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
@@ -9,7 +11,6 @@ import styles from "./NavBar.module.css";
 import ActionButton from "@/components/ActionButton/ActionButton";
 
 import logo from "@/assets/logo.svg";
-import Link from "next/link";
 
 export const NavBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -79,24 +80,28 @@ export const NavBar = () => {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <Link
+                  onClick={() => setMobileMenuOpen(false)}
                   href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 text-gray-900 hover:bg-gray-50"
                 >
                   Home
                 </Link>
                 <Link
+                  onClick={() => setMobileMenuOpen(false)}
                   href="/caravan"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 text-gray-900 hover:bg-gray-50"
                 >
                   Caravan Tops
                 </Link>
                 <Link
+                  onClick={() => setMobileMenuOpen(false)}
                   href="/home"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 text-gray-900 hover:bg-gray-50"
                 >
                   Home Tops
                 </Link>
                 <Link
+                  onClick={() => setMobileMenuOpen(false)}
                   href="/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 text-gray-900 hover:bg-gray-50"
                 >
@@ -104,7 +109,11 @@ export const NavBar = () => {
                 </Link>
               </div>
               <div className="py-6">
-                <ActionButton label="Contact Us" link="/contact" />
+                <ActionButton
+                  clickAction={() => setMobileMenuOpen(false)}
+                  label="Contact Us"
+                  link="/contact"
+                />
               </div>
             </div>
           </div>
