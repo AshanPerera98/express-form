@@ -9,10 +9,10 @@ const SpecialCard = () => {
     >
       <h3 className={styles.title}>Want something more?</h3>
       <p className={styles.description}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        We offer bespoke solutions to bring your vision to life. Whether it's a
+        custom shape, unique material, or special feature, our team is here to
+        craft the perfect benchtop tailored just for you. Let us help create the
+        ideal space with personalised options that go beyond the ordinary.
       </p>
     </div>
   );

@@ -15,8 +15,8 @@ export const Home = () => {
   return (
     <>
       <HeroSection
-        title="Home Counter Tops"
-        description="Adventure-Ready, Style-Driven – Our Caravan Benchtops Are Perfectly Designed to Endure the Demands of Life on the Road While Adding a Premium Touch to Your Caravan’s Interior..."
+        title="Home Bench Tops"
+        description="Benchtops built for Aussie living! The perfect mix of style, durability, and expert quality to suit your kitchen bench, bathroom, office or outdoor space."
         image={hero_bg.src}
       />
       <Section

@@ -3,16 +3,16 @@ import homeCard from "@/assets/LandingPage/CategoryCard/home.png";
 
 const categoryCards = [
   {
-    title: "Caravan Counter Tops",
+    title: "Caravan Benchtop",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Transform your caravan with our expertly crafted benchtops, designed for durability and style. Choose from a variety of colours, materials, and sizes to perfectly suit your space. Made to last, our benchtops are the ideal choice for your caravan.",
     image: caravanCard.src,
     link: "/caravan",
   },
   {
-    title: "Home Counter Tops",
+    title: "Home Benchtops",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Upgrade your home with our custom benchtops, perfect for kitchens, bathrooms, and even outdoor gardens. Whether you need a sleek kitchen bench or a stylish bathroom vanity, our durable, high-quality surfaces are designed to suit every space and lifestyle.",
     image: homeCard.src,
     link: "/home",
   },

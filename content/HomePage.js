@@ -6,16 +6,16 @@ const productCards = [
   {
     title: "Kitchen",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "Upgrade your kitchen with a custom kitchen bench that combines style and functionality. Choose from a variety of materials, colours, and finishes, all crafted for durability and designed to perfectly suit your space and lifestyle. Whether you prefer the sleek look of a waterfall edge or the modern appeal of an angled design, we have just what you need.",
     image: kitchen.src,
     products: [
       {
-        productTitle: "Waterfall Counter Tops",
+        productTitle: "Waterfall Bench Tops",
         productDescription:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
       },
       {
-        productTitle: "Angle Counter Tops",
+        productTitle: "Angle Bench Tops",
         productDescription:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
       },
@@ -24,7 +24,7 @@ const productCards = [
   {
     title: "Bathroom",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "Enhance your bathroom with a custom benchtop or bathroom vanity that fits your style. Choose from a variety of materials, colours, and finishes, all crafted for durability and designed to bring both beauty and functionality to your space.",
     image: bathroom.src,
     products: [
       {
@@ -47,7 +47,7 @@ const productCards = [
   {
     title: "Office",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "Create a functional and stylish workspace with a custom office tabletop. Available in a variety of materials, colours, and finishes, our office surfaces are designed to boost productivity while adding a modern touch to your office environment.",
     image: office.src,
     products: [
       {
@@ -63,51 +63,51 @@ const customizationCards = [
   {
     title: "Dimensions",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our benchtops are fully customizable to any length, width, or thickness, ensuring a perfect fit for your space. Whatever your requirements, we tailor each piece to your exact specifications for a seamless finish.",
     points: [
       {
         title: "Length",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+          "Whether it's two feet or spanning across the entire room, we have you covered. With our benchtops, size is just not a problem!",
       },
       {
         title: "Width",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+          "From a narrow strip to as wide as you like, our products give you the flexibility to choose what's best for you.",
       },
       {
         title: "Thickness",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+          "Get your benchtops in any thickness depending on the aesthetic and functionality you’re looking for.",
       },
     ],
   },
   {
     title: "Shape",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "From a perfectly squared design to the unique shape you envision, we provide custom finishes tailored to your exact specifications, ensuring your benchtop is a true reflection of your style and needs.",
     points: [
       {
         title: "Any Shape",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+          "In addition to our standard shapes cut to precision, we specialise in creating custom shapes to suit your exact needs, ensuring your benchtop fits perfectly and meets your unique style requirements.",
       },
     ],
   },
   {
     title: "Edge",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Choose from a variety of edge finishes, including smooth bullnose and sleek square edge designs. Each can be expertly crafted to enhance your benchtop’s style, offering a polished, customised look.",
     points: [
       {
         title: "Bullnose",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+          "A smooth, rounded edge that adds a soft, elegant finish to your benchtop. Bullnose edges are perfect for creating a timeless, sophisticated look in any space.",
       },
       {
         title: "Square Edge ",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+          "The clean, sharp lines of a square edge offer a modern, sleek look. Ideal for minimalist designs, square edges provide a bold, contemporary finish to any benchtop.",
       },
     ],
   },

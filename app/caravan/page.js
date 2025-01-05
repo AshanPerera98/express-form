@@ -15,7 +15,7 @@ export const Caravan = () => {
   return (
     <>
       <HeroSection
-        title="Caravan Counter Tops"
+        title="Caravan Bench Tops"
         description="Adventure-Ready, Style-Driven – Our Caravan Benchtops Are Perfectly Designed to Endure the Demands of Life on the Road While Adding a Premium Touch to Your Caravan’s Interior..."
         image={hero_bg.src}
       />
