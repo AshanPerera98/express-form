@@ -10,6 +10,7 @@ const Section = ({
   mobileOnly,
   desktopOnly,
   children,
+  mobileNoPadding,
 }) => {
   return (
     <section
@@ -20,7 +21,11 @@ const Section = ({
     >
       <div
         className={`mx-auto flex flex-col justify-center max-w-8xl px-[20px] ${
-          tight ? "pt-[32px]" : "pt-[64px]"
+          mobileNoPadding
+            ? "pt-[32px] pb-0 px-0 md:px-[20px]"
+            : tight
+            ? "pt-[32px]"
+            : "pt-[64px]"
         } pb-[32px] ${tight ? "md:py-[64px]" : "md:py-[144px]"} text-center`}
       >
         {(title || preTitle) && (

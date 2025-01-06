@@ -1,0 +1,75 @@
+.card {
+  background-color: var(--P2);
+  padding: 64px;
+  width: 46%;
+  max-width: 600px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--T2);
+  max-width: 1000px;
+}
+
+.cardTitle {
+  font-size: 32px;
+  line-height: 32px;
+  margin-bottom: 32px;
+  color: var(--B1);
+}
+
+.cardDescription {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--S2);
+  text-align: left;
+}
+
+.reasonTitle {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--S0);
+}
+
+.reasonDescription {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  color: var(--T2);
+}
+
+@media (max-width: 640px) {
+  .card {
+    width: 100%;
+    max-width: 640px;
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .cardTitle {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 32px;
+  }
+
+  .cardDescription {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .reasonTitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .reasonDescription {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
