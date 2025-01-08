@@ -21,7 +21,7 @@ const ContactForm = () => {
                 name="first-name"
                 id="first-name"
                 autocomplete="given-name"
-                class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[var(--P3)]"
+                class="block w-full bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[var(--P3)]"
               />
             </div>
           </div>
@@ -38,7 +38,7 @@ const ContactForm = () => {
                 name="last-name"
                 id="last-name"
                 autocomplete="family-name"
-                class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[var(--P3)]"
+                class="block w-full bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[var(--P3)]"
               />
             </div>
           </div>
@@ -55,7 +55,7 @@ const ContactForm = () => {
                 name="company"
                 id="company"
                 autocomplete="organization"
-                class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[var(--P3)]"
+                class="block w-full bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[var(--P3)]"
               />
             </div>
           </div>
@@ -72,7 +72,7 @@ const ContactForm = () => {
                 name="email"
                 id="email"
                 autocomplete="email"
-                class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[var(--P3)]"
+                class="block w-full bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[var(--P3)]"
               />
             </div>
           </div>
@@ -84,14 +84,14 @@ const ContactForm = () => {
               Phone number
             </label>
             <div class="mt-2.5">
-              <div class="flex rounded-md bg-white outline outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-[var(--P3)]">
+              <div class="flex bg-white outline outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-[var(--P3)]">
                 <div class="grid shrink-0 grid-cols-1 focus-within:relative">
                   <select
                     id="country"
                     name="country"
                     autocomplete="country"
                     aria-label="Country"
-                    class="col-start-1 row-start-1 w-full appearance-none rounded-md py-2 pl-3.5 pr-7 text-base text-gray-500 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[var(--P3)] sm:text-sm/6"
+                    class="col-start-1 row-start-1 w-full appearance-none py-2 pl-3.5 pr-7 text-base text-gray-500 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[var(--P3)] sm:text-sm/6"
                   >
                     <option>US</option>
                     <option>CA</option>
@@ -126,7 +126,7 @@ const ContactForm = () => {
                 name="message"
                 id="message"
                 rows="4"
-                class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[var(--P3)]"
+                class="block w-full bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[var(--P3)]"
               ></Textarea>
             </div>
           </div>
