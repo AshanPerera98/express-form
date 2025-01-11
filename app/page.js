@@ -22,7 +22,7 @@ export default function Landing() {
       >
         <div className="mx-auto flex flex-col items-center md:items-start justify-center max-w-8xl px-[20px] h-full">
           <h1 className={styles.heroTitle}>
-            Durable and elegant Aussie benchtops for your home or caravan
+            Durable and elegant Aussie benchtops
           </h1>
           <ActionButton label="Our Products" link="#products" />
         </div>

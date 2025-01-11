@@ -11,6 +11,12 @@ import hero_bg from "@/assets/CaravanPage/hero_bg.png";
 
 import { productCards, customizationCards } from "@/content/CaravanPage";
 
+export const metadata = {
+  title: "Caravan Benchtops | EXPRESS FORM",
+  description:
+    "With over 7 years of experience, we specialise in custom caravan benchtops designed for style and durability. From kitchen counters to bathroom surfaces, our space-saving solutions in a variety of materials enhance your mobile living experience.",
+};
+
 export const Caravan = () => {
   return (
     <>

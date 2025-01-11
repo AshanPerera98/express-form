@@ -11,6 +11,12 @@ import hero_bg from "@/assets/HomePage/hero_bg.png";
 
 import { productCards, customizationCards } from "@/content/HomePage";
 
+export const metadata = {
+  title: "Home Benchtops | EXPRESS FORM",
+  description:
+    "Transform your home with our premium benchtops, crafted for style and durability. From modern kitchen counters to elegant bathroom surfaces, our custom-made benchtops in a variety of materials and finishes are designed to enhance your home’s aesthetic and functionality.",
+};
+
 export const Home = () => {
   return (
     <>

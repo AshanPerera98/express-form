@@ -13,6 +13,12 @@ import styles from "./styles.module.css";
 
 import hero_bg from "@/assets/ContactUsPage/hero_bg.png";
 
+export const metadata = {
+  title: "Contact Us | EXPRESS FORM",
+  description:
+    "Get in touch with us for expert advice and personalised service. Whether you’re looking for custom benchtops for your home or caravan, our team is here to help with design, sizing, and material options.",
+};
+
 export const ContactUs = () => {
   return (
     <>

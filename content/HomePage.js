@@ -12,12 +12,12 @@ const productCards = [
       {
         productTitle: "Waterfall Bench Tops",
         productDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+          "Create a seamless, luxurious look with a waterfall edge. This design flows from the top of the bench down to the floor, offering a striking, contemporary feature that enhances any kitchen.",
       },
       {
         productTitle: "Angle Bench Tops",
         productDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+          "Add a modern touch to your kitchen with an angled design. Clean lines and sharp angles create a bold, architectural look, perfect for a minimalist or industrial-style space.",
       },
     ],
   },
@@ -35,12 +35,12 @@ const productCards = [
       {
         productTitle: "Vanity",
         productDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+          "Elevate your bathroom with a custom vanity that combines elegance and storage.",
       },
       {
         productTitle: "Laundry",
         productDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+          "Maximise your laundry space with a durable custom benchtop. Choose from water-resistant materials and finishes, perfect for handling laundry tasks while adding a sleek, organised look to your utility area.",
       },
     ],
   },
@@ -53,7 +53,7 @@ const productCards = [
       {
         productTitle: "Table Tops",
         productDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+          "Craft the perfect workspace with a custom office tabletop, designed for productivity and style. Select from durable options like timber, stone, or laminate, tailored to suit your office’s aesthetic and functional needs.",
       },
     ],
   },
@@ -114,12 +114,12 @@ const customizationCards = [
   {
     title: "Laminate",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our premium laminate benchtops feature stylish finishes like Woodland Oak and Santhia, offering durability, easy maintenance, and a sophisticated look for any benchtop design.",
     points: [
       {
         title: "Any Finishing",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+          "Choose from a wide variety of finishes to perfectly match your style. Whether it’s sleek and modern or warm and rustic, our wide range of options is sure to give you the tailored look.",
       },
     ],
   },
