@@ -1,12 +1,43 @@
+"use client";
 import React from "react";
 import ActionButton from "../ActionButton/ActionButton";
 import { Input, Textarea } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify"; // For notifications
 
 const ContactForm = () => {
+  const sendEmail = (form) => {
+    const emailParams = {
+      name: `${form.get("first-name")} ${form.get("last-name")}`,
+      email: form.get("email"),
+      company: form.get("company"),
+      phoneNumber: form.get("phone-number"),
+      country: form.get("country"),
+      message: form.get("message"),
+    };
+    emailjs
+      .send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        emailParams,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+      )
+      .then((res) => {
+        console.log(res);
+        if (res.status === 200) {
+          toast.success("Message sent successfully!");
+        } else {
+          toast.error("Failed to send message. Please try again later.");
+        }
+      })
+      .catch((err) => {
+        toast.error("Failed to send message. Please try again later.");
+      });
+  };
   return (
     <div className="p-[32px] sm:p-[64px] col-span-2">
-      <form>
+      <form action={sendEmail}>
         <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label
@@ -135,6 +166,7 @@ const ContactForm = () => {
           </div>
         </div>
       </form>
+      <ToastContainer />
     </div>
   );
 };
