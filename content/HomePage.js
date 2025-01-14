@@ -12,12 +12,12 @@ const productCards = [
       {
         productTitle: "Waterfall Bench Tops",
         productDescription:
-          "Create a seamless, luxurious look with a waterfall edge. This design flows from the top of the bench down to the floor, offering a striking, contemporary feature that enhances any kitchen.",
+          "Create a seamless, luxurious look with a waterfall edge that flows from the bench to the floor, enhancing any kitchen.",
       },
       {
         productTitle: "Angle Bench Tops",
         productDescription:
-          "Add a modern touch to your kitchen with an angled design. Clean lines and sharp angles create a bold, architectural look, perfect for a minimalist or industrial-style space.",
+          "Add a modern touch with an angled design, featuring clean lines and sharp angles for a bold, minimalist look.",
       },
     ],
   },
@@ -40,7 +40,7 @@ const productCards = [
       {
         productTitle: "Laundry",
         productDescription:
-          "Maximise your laundry space with a durable custom benchtop. Choose from water-resistant materials and finishes, perfect for handling laundry tasks while adding a sleek, organised look to your utility area.",
+          "Maximise laundry space with a durable, water-resistant custom benchtop for a sleek, organised utility area.",
       },
     ],
   },
@@ -53,7 +53,7 @@ const productCards = [
       {
         productTitle: "Table Tops",
         productDescription:
-          "Craft the perfect workspace with a custom office tabletop, designed for productivity and style. Select from durable options like timber, stone, or laminate, tailored to suit your office’s aesthetic and functional needs.",
+          "Create the perfect workspace with a custom office tabletop, offering durable options like timber, stone, or laminate.",
       },
     ],
   },

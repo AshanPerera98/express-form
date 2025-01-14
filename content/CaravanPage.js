@@ -13,17 +13,17 @@ const productCards = [
       {
         productTitle: "Waterfall Bench Tops",
         productDescription:
-          "Enhance your caravan kitchen with a sleek waterfall benchtop. This modern design offers a smooth, flowing look, elevating your space while remaining practical and durable for life on the road.",
+          "Enhance your caravan kitchen with a sleek waterfall benchtop, offering a modern, flowing design that's practical and durable.",
       },
       {
-        productTitle: "Stove lid",
+        productTitle: "Stove Lid",
         productDescription:
-          "Maximise your caravan kitchen space with a custom stove lid. This functional feature doubles as a benchtop when not in use, offering additional workspace and maintaining a clean, streamlined look.",
+          "Enhance your caravan kitchen with a sleek waterfall benchtop, offering a modern, flowing design that's practical and durable.",
       },
       {
-        productTitle: "Without Stove lid",
+        productTitle: "Without Stove Lid",
         productDescription:
-          "For a more open, accessible kitchen, choose a benchtop without a stove lid. This option provides extra counter space and a minimalist design while keeping your caravan kitchen functional and stylish.",
+          "Choose a stove-lid-free benchtop for a more open, accessible kitchen, offering extra counter space and a minimalist design.",
       },
     ],
   },
@@ -36,12 +36,12 @@ const productCards = [
       {
         productTitle: "Cafe",
         productDescription:
-          "Design a stylish café-inspired lounge with a custom benchtop, perfect for your caravan. Choose from durable materials like timber or laminate, ideal for creating a welcoming, functional space while travelling.",
+          "Design a stylish café-inspired lounge with a custom benchtop, using durable materials like timber or laminate for a functional, welcoming space.",
       },
       {
         productTitle: "Trifold",
         productDescription:
-          "Maximise your caravan's functionality with a trifold benchtop. This clever design offers additional counter space that folds out when needed, then neatly folds away to free up room in your compact lounge area.",
+          "Maximise your caravan's functionality with a trifold benchtop, offering extra counter space that folds away to save room.",
       },
     ],
   },
@@ -54,17 +54,17 @@ const productCards = [
       {
         productTitle: "Washing Machine",
         productDescription:
-          "Create a functional laundry space in your caravan with a custom benchtop around your washing machine. Choose from durable, water-resistant materials designed to maximise space and streamline your bathroom layout.",
+          "Create a functional caravan laundry with a custom benchtop around your washing machine, using durable, water-resistant materials to maximise space.",
       },
       {
         productTitle: "Ensuite Bench Tops",
         productDescription:
-          "Elevate your caravan ensuite with a custom benchtop. Choose from materials that resist moisture and wear, perfectly sized to fit compact spaces while providing a stylish, practical surface for your essentials.",
+          "Elevate your caravan ensuite with a custom benchtop, choosing moisture-resistant materials that fit compact spaces and offer style and practicality.",
       },
       {
         productTitle: "Vanity",
         productDescription:
-          "Maximise your caravan’s bathroom with a custom vanity benchtop. Crafted from durable materials, it offers ample storage and counter space, blending design with functionality to optimise your mobile living experience",
+          "Maximise your caravan’s bathroom with a custom vanity benchtop, offering durable materials, ample storage, and functional counter space for mobile living.",
       },
     ],
   },
@@ -77,12 +77,12 @@ const productCards = [
       {
         productTitle: "Bedside Table",
         productDescription:
-          "Maximise your caravan bedroom with a custom bedside table benchtop that combines style and practicality. Choose from durable materials like timber or laminate, designed to offer efficient storage, sleek design, and space-saving solutions—perfect for keeping your essentials organised while on the move.",
+          "Maximise your caravan bedroom with a custom bedside table benchtop, offering durable materials, efficient storage, and space-saving design for organised essentials.",
       },
       {
         productTitle: "Corner Cupboard",
         productDescription:
-          "Make the most of every inch with a custom corner cupboard benchtop. Designed to fit snugly into corners, it provides hidden storage while maintaining a modern, space-efficient look in your caravan bedroom.",
+          "Maximise space with a custom corner cupboard benchtop, fitting snugly into corners for hidden storage and a modern, efficient look.",
       },
     ],
   },
