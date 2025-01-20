@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^2.2.0",
+    "express-form": "file:",
     "next": "14.2.21",
     "react": "^18",
     "react-dom": "^18",
-    "react-responsive-carousel": "^3.2.23"
+    "react-responsive-carousel": "^3.2.23",
+    "react-toastify": "^11.0.2"
   },
   "devDependencies": {
     "postcss": "^8",

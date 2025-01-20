@@ -1,5 +1,5 @@
-import caravanCard from "@/assets/LandingPage/CategoryCard/caravan.png";
-import homeCard from "@/assets/LandingPage/CategoryCard/home.png";
+import caravanCard from "@/assets/LandingPage/CategoryCard/caravan.webp";
+import homeCard from "@/assets/LandingPage/CategoryCard/home.webp";
 
 const categoryCards = [
   {
@@ -20,38 +20,28 @@ const categoryCards = [
 
 // --------------------------------------------------------
 
-import image from "@/assets/LandingPage/Carousel/image.png";
+import slide1 from "@/assets/LandingPage/Carousel/slide1.webp";
+import slide2 from "@/assets/LandingPage/Carousel/slide2.webp";
+import slide3 from "@/assets/LandingPage/Carousel/slide3.webp";
 
 const carouselSlides = [
   {
     title: "First Slide",
     description:
       "Explore our wide range of vibrant stock colours, thoughtfully curated to suit every style and preference. From timeless neutrals to bold, adventurous shades, our collection is designed to enhance the look and feel of your caravan interiors. Whether you're seeking a classic finish or a modern touch, find the perfect colour to reflect your personality and elevate your journey.",
-    image: image.src,
+    image: slide1.src,
   },
   {
     title: "Second Slide",
     description:
       "Explore our wide range of vibrant stock colours, thoughtfully curated to suit every style and preference. From timeless neutrals to bold, adventurous shades, our collection is designed to enhance the look and feel of your caravan interiors. Whether you're seeking a classic finish or a modern touch, find the perfect colour to reflect your personality and elevate your journey.",
-    image: image.src,
+    image: slide2.src,
   },
   {
     title: "Third Slide",
     description:
       "Explore our wide range of vibrant stock colours, thoughtfully curated to suit every style and preference. From timeless neutrals to bold, adventurous shades, our collection is designed to enhance the look and feel of your caravan interiors. Whether you're seeking a classic finish or a modern touch, find the perfect colour to reflect your personality and elevate your journey.",
-    image: image.src,
-  },
-  {
-    title: "Fourth Slide",
-    description:
-      "Explore our wide range of vibrant stock colours, thoughtfully curated to suit every style and preference. From timeless neutrals to bold, adventurous shades, our collection is designed to enhance the look and feel of your caravan interiors. Whether you're seeking a classic finish or a modern touch, find the perfect colour to reflect your personality and elevate your journey.",
-    image: image.src,
-  },
-  {
-    title: "Fifth Slide",
-    description:
-      "Explore our wide range of vibrant stock colours, thoughtfully curated to suit every style and preference. From timeless neutrals to bold, adventurous shades, our collection is designed to enhance the look and feel of your caravan interiors. Whether you're seeking a classic finish or a modern touch, find the perfect colour to reflect your personality and elevate your journey.",
-    image: image.src,
+    image: slide3.src,
   },
 ];
 

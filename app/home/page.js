@@ -7,7 +7,7 @@ import MobileProductSection from "@/components/MobileProductSection/MobileProduc
 import CustomizationSection from "@/components/Customization/CustomizationSection";
 import ContactUsSection from "@/components/ContactUsSection/ContactUsSection";
 
-import hero_bg from "@/assets/HomePage/hero_bg.png";
+import hero_bg from "@/assets/HomePage/hero_bg.webp";
 
 import { productCards, customizationCards } from "@/content/HomePage";
 

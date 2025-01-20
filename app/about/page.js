@@ -1,14 +1,14 @@
 import React from "react";
+import Image from "next/image";
 
 import HeroSection from "@/components/HeroSection/HeroSection";
 import Section from "@/components/Section/Section";
+import ContactUsSection from "@/components/ContactUsSection/ContactUsSection";
 
 import styles from "./styles.module.css";
 
-import hero_bg from "@/assets/AboutUsPage/hero_bg.png";
+import hero_bg from "@/assets/AboutUsPage/hero_bg.webp";
 import { cards, reasons } from "@/content/AboutUsPage";
-import ContactUsSection from "@/components/ContactUsSection/ContactUsSection";
-import Image from "next/image";
 
 const renderCard = ({ title, description, index }) => {
   return (
