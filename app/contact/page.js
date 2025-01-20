@@ -11,7 +11,7 @@ import {
 
 import styles from "./styles.module.css";
 
-import hero_bg from "@/assets/ContactUsPage/hero_bg.png";
+import hero_bg from "@/assets/ContactUsPage/hero_bg.webp";
 
 export const metadata = {
   title: "Contact Us | EXPRESS FORM",
@@ -23,7 +23,7 @@ export const ContactUs = () => {
   return (
     <>
       <HeroSection
-        title="About Us"
+        title="Contact Us"
         description="Adventure-Ready, Style-Driven – Our Caravan Benchtops Are Perfectly Designed to Endure the Demands of Life on the Road While Adding a Premium Touch to Your Caravan’s Interior..."
         image={hero_bg.src}
       />
