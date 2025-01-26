@@ -7,7 +7,7 @@ import ContactUsSection from "@/components/ContactUsSection/ContactUsSection";
 
 import styles from "./styles.module.css";
 
-import hero_bg from "@/assets/AboutUsPage/hero_bg.webp";
+import hero_bg from "@/assets/AboutUsPage/hero_bg.jpg";
 import { cards, reasons } from "@/content/AboutUsPage";
 
 const renderCard = ({ title, description, index }) => {

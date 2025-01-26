@@ -1,5 +1,5 @@
 .card {
-  min-height: 500px;
+  height: 500px;
   display: flex;
   background-color: var(--B2);
   --animateTime: 600ms ease-out;
@@ -9,9 +9,9 @@
   width: calc(50% - 160px);
   max-width: 540px;
   height: auto;
-  margin: 110px 70px 110px 90px;
+  margin: 90px 70px 90px 90px;
   transition: var(--animateTime);
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .slider {
@@ -132,6 +132,7 @@
 
 @media only screen and (max-width: 1024px) {
   .card {
+    height: auto;
     min-height: 500px;
     display: flex;
     flex-direction: column-reverse;

@@ -6,7 +6,7 @@ import CarouselSection from "@/components/Carousel/CarouselSection";
 import MobileCarousel from "@/components/MobileCarousel/MobileCarousel";
 import CategorySection from "@/components/CategoryCard/CategorySection";
 
-import hero_bg from "@/assets/LandingPage/hero_bg.webp";
+import hero_bg from "@/assets/LandingPage/hero_bg.jpg";
 
 import { categoryCards, carouselSlides } from "@/content/LandingPage";
 

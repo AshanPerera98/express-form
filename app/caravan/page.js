@@ -7,7 +7,7 @@ import MobileProductSection from "@/components/MobileProductSection/MobileProduc
 import CustomizationSection from "@/components/Customization/CustomizationSection";
 import ContactUsSection from "@/components/ContactUsSection/ContactUsSection";
 
-import hero_bg from "@/assets/CaravanPage/hero_bg.webp";
+import hero_bg from "@/assets/CaravanPage/hero_bg.jpg";
 
 import { productCards, customizationCards } from "@/content/CaravanPage";
 
