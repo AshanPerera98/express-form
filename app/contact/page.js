@@ -24,7 +24,7 @@ export const ContactUs = () => {
     <>
       <HeroSection
         title="Contact Us"
-        description="Adventure-Ready, Style-Driven – Our Caravan Benchtops Are Perfectly Designed to Endure the Demands of Life on the Road While Adding a Premium Touch to Your Caravan’s Interior..."
+        description="Got a question or ready to start your project? We’re here to help! Reach out to us today, and let’s create the perfect benchtop for your space."
         image={hero_bg.src}
       />
       <Section

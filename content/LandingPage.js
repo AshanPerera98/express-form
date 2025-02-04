@@ -28,19 +28,19 @@ const carouselSlides = [
   {
     title: "First Slide",
     description:
-      "Explore our wide range of vibrant stock colours, thoughtfully curated to suit every style and preference. From timeless neutrals to bold, adventurous shades, our collection is designed to enhance the look and feel of your caravan interiors. Whether you're seeking a classic finish or a modern touch, find the perfect colour to reflect your personality and elevate your journey.",
+      "Our countertops are crafted with durability in mind. Designed to withstand the rigors of daily life, they’re heat, scratch, and stain-resistant—perfect for busy family kitchens or the adventurous lifestyle of caravan living. With our benchtops, you can enjoy long-lasting beauty and functionality for years to come.",
     image: slide1.src,
   },
   {
     title: "Second Slide",
     description:
-      "Explore our wide range of vibrant stock colours, thoughtfully curated to suit every style and preference. From timeless neutrals to bold, adventurous shades, our collection is designed to enhance the look and feel of your caravan interiors. Whether you're seeking a classic finish or a modern touch, find the perfect colour to reflect your personality and elevate your journey.",
+      "Our countertops are crafted with durability in mind. Designed to withstand the rigors of daily life, they’re heat, scratch, and stain-resistant—perfect for busy family kitchens or the adventurous lifestyle of caravan living. With our benchtops, you can enjoy long-lasting beauty and functionality for years to come.",
     image: slide2.src,
   },
   {
     title: "Third Slide",
     description:
-      "Explore our wide range of vibrant stock colours, thoughtfully curated to suit every style and preference. From timeless neutrals to bold, adventurous shades, our collection is designed to enhance the look and feel of your caravan interiors. Whether you're seeking a classic finish or a modern touch, find the perfect colour to reflect your personality and elevate your journey.",
+      "We make the process easy and stress-free with professional installation services. Our experienced team ensures your countertops are installed quickly, safely, and to the highest standards. Whether you're upgrading your home or renovating your caravan, you can relax knowing the job will be done right, every time.",
     image: slide3.src,
   },
 ];

@@ -40,6 +40,16 @@
   color: var(--T2);
 }
 
+.partnerLogo {
+  filter: sepia(100%) hue-rotate(30deg) saturate(50%);
+  transition: ease-out 300ms;
+
+  &:hover {
+    filter: sepia(0%) hue-rotate(0deg);
+    transform: translateY(-5px);
+  }
+}
+
 @media (max-width: 640px) {
   .card {
     width: 100%;
@@ -71,5 +81,14 @@
   .reasonDescription {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .partnerLogo {
+    filter: none;
+    transition: none;
+
+    &:hover {
+      transform: none;
+    }
   }
 }

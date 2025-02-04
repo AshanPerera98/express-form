@@ -10,6 +10,10 @@ import styles from "./styles.module.css";
 import hero_bg from "@/assets/AboutUsPage/hero_bg.jpg";
 import { cards, reasons } from "@/content/AboutUsPage";
 
+import crusader from "@/assets/AboutUsPage/partners/crusader.png";
+import hilltop from "@/assets/AboutUsPage/partners/hilltop.png";
+import orbit from "@/assets/AboutUsPage/partners/orbit.png";
+
 const renderCard = ({ title, description, index }) => {
   return (
     <div className={styles.card} key={index}>
@@ -34,7 +38,7 @@ export const AboutUs = () => {
     <>
       <HeroSection
         title="About Us"
-        description="Adventure-Ready, Style-Driven – Our Caravan Benchtops Are Perfectly Designed to Endure the Demands of Life on the Road While Adding a Premium Touch to Your Caravan’s Interior..."
+        description="Crafting premium benchtops for caravans and homes, we combine quality materials with expert craftsmanship to create durable, stylish surfaces that stand the test of time and adventure."
         image={hero_bg.src}
       />
       <Section preTitle="Wanna know us?" title="Who We Are" mobileNoPadding>
@@ -61,6 +65,17 @@ export const AboutUs = () => {
           {reasons.map((reason, index) =>
             renderSpecialty({ ...reason, index })
           )}
+        </div>
+      </Section>
+      <Section
+        preTitle="Who do we work with?"
+        title="Suppliers & Customers"
+        bgColor="bgWhite"
+      >
+        <div className="grid grid-flow-row md:grid-cols-3 gap-x-[120px] gap-y-[64px] md:gap-y-[120px] mx-auto max-w-[75%] md:max-w-[1000px]">
+          <Image src={crusader} className={styles.partnerLogo} />
+          <Image src={hilltop} className={styles.partnerLogo} />
+          <Image src={orbit} className={styles.partnerLogo} />
         </div>
       </Section>
       <ContactUsSection />
