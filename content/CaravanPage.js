@@ -1,7 +1,7 @@
-import kitchen from "@/assets/CaravanPage/ProductCard/kitchen.webp";
-import lounge from "@/assets/CaravanPage/ProductCard/lounge.webp";
-import bedroom from "@/assets/CaravanPage/ProductCard/bedroom.webp";
-import bathroom from "@/assets/CaravanPage/ProductCard/bathroom.webp";
+import kitchen from "@/assets/CaravanPage/ProductCard/kitchen.jpg";
+import lounge from "@/assets/CaravanPage/ProductCard/lounge.jpg";
+import bedroom from "@/assets/CaravanPage/ProductCard/bedroom.jpg";
+import bathroom from "@/assets/CaravanPage/ProductCard/bathroom.jpg";
 
 const productCards = [
   {
