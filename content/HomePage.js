@@ -1,6 +1,6 @@
-import kitchen from "@/assets/HomePage/ProductCard/kitchen.webp";
-import office from "@/assets/HomePage/ProductCard/office.webp";
-import bathroom from "@/assets/HomePage/ProductCard/bathroom.webp";
+import kitchen from "@/assets/HomePage/ProductCard/kitchen.jpg";
+import office from "@/assets/HomePage/ProductCard/office.jpg";
+import bathroom from "@/assets/HomePage/ProductCard/bathroom.jpg";
 
 const productCards = [
   {
