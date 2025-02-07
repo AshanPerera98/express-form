@@ -30,7 +30,7 @@ const productCards = [
       {
         productTitle: "Bathrrom",
         productDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+          "Transform your bathroom benchtops with durable materials, colors, and finishes for style and functionality.",
       },
       {
         productTitle: "Vanity",

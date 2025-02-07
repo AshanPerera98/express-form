@@ -7,7 +7,7 @@ import ContactUsSection from "@/components/ContactUsSection/ContactUsSection";
 
 import styles from "./styles.module.css";
 
-import hero_bg from "@/assets/AboutUsPage/hero_bg.jpg";
+import hero_bg from "@/assets/AboutUsPage/hero_bg.webp";
 import { cards, reasons } from "@/content/AboutUsPage";
 
 import crusader from "@/assets/AboutUsPage/partners/crusader.png";

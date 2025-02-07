@@ -34,7 +34,7 @@ const carouselSlides = [
   {
     title: "Second Slide",
     description:
-      "Our countertops are crafted with durability in mind. Designed to withstand the rigors of daily life, they’re heat, scratch, and stain-resistant—perfect for busy family kitchens or the adventurous lifestyle of caravan living. With our benchtops, you can enjoy long-lasting beauty and functionality for years to come.",
+      "Our wide selection of materials, colors, and finishes allows you to customize your countertops to match your unique style. Whether you prefer a sleek, modern look or a more rustic charm, we have the perfect option to complement your space. Enjoy the perfect balance of aesthetics and performance with countertops designed to elevate any room.",
     image: slide2.src,
   },
   {

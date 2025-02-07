@@ -11,7 +11,7 @@ import {
 
 import styles from "./styles.module.css";
 
-import hero_bg from "@/assets/ContactUsPage/hero_bg.jpg";
+import hero_bg from "@/assets/ContactUsPage/hero_bg.webp";
 
 export const metadata = {
   title: "Contact Us | EXPRESS FORM",
