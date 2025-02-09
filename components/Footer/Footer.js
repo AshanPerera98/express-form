@@ -16,7 +16,7 @@ const Footer = () => {
             <address className={styles.address}>
               Express Form,
               <br />
-              28, Export Road,
+              28 Export Road,
               <br />
               Craigieburn,
               <br />

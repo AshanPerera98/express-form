@@ -39,15 +39,16 @@ export const ContactUs = () => {
           >
             <h3 className={`${styles.title} mb-[24px]`}>Contact Info</h3>
             <p className={`${styles.description} mb-[32px]`}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Got a question or need support? We're here to help! Fill out the
+              form, and the Expressform team will get back to you as soon as
+              possible. Whether it's a product inquiry, a service request, or
+              just a general question, we’re committed to providing you with a
+              quick and helpful response. Let’s stay connected!
             </p>
             <div className="flex mb-[16px]">
               <PhoneIcon className="size-5 mr-[16px]" />
               <p>
-                <a href="tel:+43 0502 327">+43 0502 327</a>
+                <a href="tel:+61 430 502 327">+61 430 502 327</a>
               </p>
             </div>
             <div className="flex mb-[16px]">
@@ -63,7 +64,7 @@ export const ContactUs = () => {
               <p className="text-left">
                 Express Form,
                 <br />
-                28, Export Road,
+                28 Export Road,
                 <br />
                 Craigieburn,
                 <br />
