@@ -16,11 +16,13 @@ const Footer = () => {
             <address className={styles.address}>
               Express Form,
               <br />
-              Line 1,
+              28, Export Road,
               <br />
-              Line 2,
+              Craigieburn,
               <br />
-              Line 3,
+              Australia.
+              <br />
+              3064
               <br />
             </address>
           </div>

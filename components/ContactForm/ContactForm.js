@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import ActionButton from "../ActionButton/ActionButton";
 import { Input, Textarea } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
@@ -7,7 +7,10 @@ import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify"; // For notifications
 
 const ContactForm = () => {
+  const [buttonDisabled, setButtonDisabled] = useState(false);
+
   const sendEmail = (form) => {
+    setButtonDisabled(true);
     const emailParams = {
       name: `${form.get("first-name")} ${form.get("last-name")}`,
       email: form.get("email"),
@@ -19,16 +22,31 @@ const ContactForm = () => {
     emailjs
       .send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_CUSTOMER_TEMPLATE_ID,
         emailParams,
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
       )
       .then((res) => {
-        console.log(res);
         if (res.status === 200) {
-          toast.success("Message sent successfully!");
+          emailjs
+            .send(
+              process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+              process.env.NEXT_PUBLIC_EMAILJS_OWNER_TEMPLATE_ID,
+              emailParams,
+              process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+            )
+            .then((res) => {
+              if (res.status === 200) {
+                toast.success("Message sent successfully!");
+                setButtonDisabled(false);
+              } else {
+                toast.error("Failed to send message. Please try again later.");
+                setButtonDisabled(false);
+              }
+            });
         } else {
           toast.error("Failed to send message. Please try again later.");
+          setButtonDisabled(false);
         }
       })
       .catch((err) => {
@@ -44,7 +62,7 @@ const ContactForm = () => {
               for="first-name"
               class="block text-sm/6 font-semibold text-[var(--S0)] text-left"
             >
-              First name
+              First name*
             </label>
             <div class="mt-2.5">
               <Input
@@ -52,6 +70,7 @@ const ContactForm = () => {
                 name="first-name"
                 id="first-name"
                 autocomplete="given-name"
+                required
                 class="block w-full bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[var(--P3)]"
               />
             </div>
@@ -95,7 +114,7 @@ const ContactForm = () => {
               for="email"
               class="block text-sm/6 font-semibold text-[var(--S0)] text-left"
             >
-              Email
+              Email*
             </label>
             <div class="mt-2.5">
               <Input
@@ -103,6 +122,7 @@ const ContactForm = () => {
                 name="email"
                 id="email"
                 autocomplete="email"
+                required
                 class="block w-full bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[var(--P3)]"
               />
             </div>
@@ -124,9 +144,10 @@ const ContactForm = () => {
                     aria-label="Country"
                     class="col-start-1 row-start-1 w-full appearance-none py-2 pl-3.5 pr-7 text-base text-gray-500 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[var(--P3)] sm:text-sm/6"
                   >
+                    <option>AU</option>
                     <option>US</option>
                     <option>CA</option>
-                    <option>AU</option>
+                    <option>Other</option>
                   </select>
                   <ChevronDownIcon
                     class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4"
@@ -150,19 +171,20 @@ const ContactForm = () => {
               for="message"
               class="block text-sm/6 font-semibold text-[var(--S0)] text-left"
             >
-              Message
+              Message*
             </label>
             <div class="mt-2.5">
               <Textarea
                 name="message"
                 id="message"
                 rows="4"
+                required
                 class="block w-full bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[var(--P3)]"
               ></Textarea>
             </div>
           </div>
           <div class="mt-10 sm:col-span-2">
-            <ActionButton label="Sumbit" />
+            <ActionButton label="Sumbit" disabled={buttonDisabled} />
           </div>
         </div>
       </form>

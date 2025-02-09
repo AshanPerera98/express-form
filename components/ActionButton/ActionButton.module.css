@@ -10,4 +10,9 @@
   &:hover {
     color: #d4a373;
   }
+
+  &:disabled {
+    pointer-events: none;
+    background-color: #688544;
+  }
 }

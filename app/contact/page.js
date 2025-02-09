@@ -46,15 +46,32 @@ export const ContactUs = () => {
             </p>
             <div className="flex mb-[16px]">
               <PhoneIcon className="size-5 mr-[16px]" />
-              <p>+1012 3456 789</p>
+              <p>
+                <a href="tel:+43 0502 327">+43 0502 327</a>
+              </p>
             </div>
             <div className="flex mb-[16px]">
               <EnvelopeIcon className="size-5 mr-[16px]" />
-              <p>expressform@email.com</p>
+              <p>
+                <a href="mailto:info@expressform.com.au">
+                  info@expressform.com.au
+                </a>
+              </p>
             </div>
             <div className="flex">
               <MapPinIcon className="size-5 mr-[16px]" />
-              <p>+1012 3456 789</p>
+              <p className="text-left">
+                Express Form,
+                <br />
+                28, Export Road,
+                <br />
+                Craigieburn,
+                <br />
+                Australia.
+                <br />
+                3064
+                <br />
+              </p>
             </div>
           </div>
           <ContactForm />
