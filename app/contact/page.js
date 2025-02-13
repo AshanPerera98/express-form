@@ -7,6 +7,7 @@ import {
   PhoneIcon,
   EnvelopeIcon,
   MapPinIcon,
+  ClockIcon,
 } from "@heroicons/react/24/outline";
 
 import styles from "./styles.module.css";
@@ -48,7 +49,7 @@ export const ContactUs = () => {
             <div className="flex mb-[16px]">
               <PhoneIcon className="size-5 mr-[16px]" />
               <p>
-                <a href="tel:+61 430 502 327">+61 430 502 327</a>
+                <a href="tel:+61 430 502 327">+61 393 084 614</a>
               </p>
             </div>
             <div className="flex mb-[16px]">
@@ -58,6 +59,10 @@ export const ContactUs = () => {
                   info@expressform.com.au
                 </a>
               </p>
+            </div>
+            <div className="flex mb-[16px]">
+              <ClockIcon className="size-5 mr-[16px]" />
+              <p>Monday-Friday, 8.30-4.30pm</p>
             </div>
             <div className="flex">
               <MapPinIcon className="size-5 mr-[16px]" />
