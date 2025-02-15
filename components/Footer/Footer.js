@@ -14,15 +14,15 @@ const Footer = () => {
           <div className="mb-[32px] sm:mb-0">
             <Image src={logo} width={141} height={32} />
             <address className={styles.address}>
-              Express Form,
+              Expressform,
               <br />
               28 Export Road,
               <br />
-              Craigieburn,
+              Craigieburn 3064,
               <br />
-              Australia.
+              Victoria,
               <br />
-              3064
+              Australia
               <br />
             </address>
           </div>

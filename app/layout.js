@@ -28,6 +28,10 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           media="all"
         />
+        <meta
+          name="google-site-verification"
+          content="-oq6hg_3hsIaDoEb9puZytC9lcVtLRFS2e--K8Mz9YE"
+        />
       </head>
       <body className={`antialiased h-[100vh]`}>
         <NavBar />

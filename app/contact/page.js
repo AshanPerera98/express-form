@@ -49,7 +49,9 @@ export const ContactUs = () => {
             <div className="flex mb-[16px]">
               <PhoneIcon className="size-5 mr-[16px]" />
               <p>
-                <a href="tel:+61 430 502 327">+61 393 084 614</a>
+                <a href="tel:+61430502327">+61 393 084 614</a>
+                <br />
+                <a href="tel:+61448003434">+61 448 003 434</a>
               </p>
             </div>
             <div className="flex mb-[16px]">
@@ -67,15 +69,15 @@ export const ContactUs = () => {
             <div className="flex">
               <MapPinIcon className="size-5 mr-[16px]" />
               <p className="text-left">
-                Express Form,
+                Expressform,
                 <br />
                 28 Export Road,
                 <br />
-                Craigieburn,
+                Craigieburn 3064,
                 <br />
-                Australia.
+                Victoria,
                 <br />
-                3064
+                Australia
                 <br />
               </p>
             </div>
